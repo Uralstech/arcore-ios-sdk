@@ -29,8 +29,7 @@ let package = Package(
     .package(url: "https://github.com/firebase/nanopb.git", "2.30909.0"..<"2.30911.0"),
     .package(url: "https://github.com/google/GoogleDataTransport.git", "10.0.0"..<"11.0.0"),
     .package(url: "https://github.com/google/gtm-session-fetcher.git", "5.0.0"..<"6.0.0"),
-    .package(
-      url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "12.0.0")),
+    .package(url: "https://github.com/firebase/firebase-ios-sdk.git", "12.0.0"..<"14.0.0"),
   ],
   targets: [
     .binaryTarget(
